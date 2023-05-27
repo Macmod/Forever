@@ -2,7 +2,7 @@
 
 Forever (Forward Everything) is a simple tool that generates SSH command-line arguments to forward local addresses to multiple remote targets.
 
-When you need to access multiple remote services through an SSH-enabled proxy server, there are reasons why you might not want to use SSH's dynamic port forwarding with `-D`, like when you need to access these services through desktop applications that don't offer SOCKS support. In that case, one is left with the option of forwarding local ports to remote targets using SSH's `-L' switches, but with a large list of targets this approach becomes exhaustive.
+When you need to access multiple remote services through an SSH-enabled proxy server, there are reasons why you might not want to use SSH's dynamic port forwarding with `-D`, like when you need to access these services through desktop applications that don't offer SOCKS support. In that case, one is left with the option of forwarding local ports to remote targets using SSH's `-L` switches, but with a large list of targets this approach becomes exhaustive.
 
 The `forever.py` tool is a simple utility to fix that - it generates `-L` switches through a variety of methods for multiple targets to be forwarded through SSH, only depending on the amount of local addresses you have available.
 
