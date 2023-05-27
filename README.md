@@ -10,6 +10,9 @@ This "trick" might be useful for cases where you want to quickly access a big bu
 
 # Usage
 
+## Asciicast
+[![asciicast](https://asciinema.org/a/qI49iOKQfbBM5JldFMEjgMFCX.svg)](https://asciinema.org/a/qI49iOKQfbBM5JldFMEjgMFCX)
+
 ## Sequential Addresses
 ```bash
 $ python3 forever.py <targetsfile>
